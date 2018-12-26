@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mobile.bts.com.viefund.Activity.NewMessageNotificationActivity">
+    <include
+        android:id="@+id/toolbarNewMessNotification"
+        layout="@layout/appbar_dktv"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA">
+        <TableRow
+            android:background="@drawable/reply_edit_text">
+            <EditText
+                android:background="@android:color/transparent"
+                android:id="@+id/txtView_new_rep_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/la_mess_subject"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:textColor="#000"
+                android:textColorHint="@color/darkGray"
+                android:textSize="14dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent">
+            <EditText
+                android:id="@+id/txtView_new_rep_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FAFAFA"
+                android:hint="@string/la_mess_content"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:textColor="#000"
+                android:textColorHint="@color/darkGray"
+                android:textSize="14dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

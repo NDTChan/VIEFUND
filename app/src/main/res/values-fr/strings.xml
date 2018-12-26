@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">VieFUND</string>
+    <string name="username">Username/Nom d\'utilisateur</string>
+    <string name="password">Password/Mot de passe</string>
+    <string name="login">Login/Connexion</string>
+    <string name="forgetPwd">Mot de passe oublié</string>
+    <string name="signin">Signin </string>
+    <string name="action_logout">Déconnexion</string>
+    <string name="rationale_location_contacts">"Cette application a besoin d'accéder à votre position et vos contacts pour savoir où et qui vous êtes."</string>
+    <string name="changelanguage">Changement de langue</string>
+
+
+
+    <!-- TEST -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_group">Option</string>
+    <string name="nav_home">"Accueil "</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_notifications_info">Notifications</string>
+    <string name="nav_notifications_reply">Notification de réponse</string>
+    <string name="nav_transaction_detail">Détail de la transaction</string>
+    <string name="nav_plan_account">Investissement</string>
+    <string name="nav_assett_chart">"Graphique de l'actif "</string>
+    <string name="nav_plan_asset">"Actifs du plan "</string>
+
+    <string name="nav_settings">Paramètres</string>
+    <string name="nav_logout">Se déconnecter</string>
+    <string name="nav_about_us">Entreprise</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">"À propos "</string>
+    <string name="activity_title_privacy_policy">Confidentialité</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="change_language_title">Changement de langue</string>
+    <string name="empty_username">"Veuillez entrer votre nom d'utilisateur et votre mot de passe "</string>
+    <string name="gic_details">Compte de CPG</string>
+    <string name="cash_transactions">"Transactions "</string>
+    <string name="acc_info">"Informations de compte "</string>
+    <string name="fund_price">Prix du fonds</string>
+    <string name="inbox">"Boîte de réception "</string>
+    <string name="cancel">"Annuler "</string>
+    <string name="message">Message</string>
+    <string name="nav_change_theme">Change le thème</string>
+    <string name="plan_info_details">"Plan info détails "</string>
+    <string name="quick_access">"Accès rapide"</string>
+    <string name="Trades">Ordres</string>
+    <string name="Account_Details">Détails du compte</string>
+    <string name="Account">Compte</string>
+    <string name="Prices">Prix</string>
+    <string name="Asset_Class">Classe d\'actifs</string>
+    <string name="Value">Valeur</string>
+    <string name="Cash_Account">Espèces</string>
+    <string name="Details">Détails</string>
+    <string name="GIC_Account">Compte de CPG</string>
+    <string name="amount">Montant</string>
+    <string name="setting_privacy">Confidentialité</string>
+    <string name="setting_disclosure">Limitation de responsabilité</string>
+    <string name="setting_termofuse">Conditions d\\\'utilisation</string>
+    <string name="setting_help">Aide</string>
+    <string name="new_message">Nouveau Message</string>
+    <string name="switch_button_title">Accès rapide</string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="la_mess_to">À</string>
+    <string name="la_mess_sent">Message envoyé</string>
+    <string name="la_mess_subject">Sujet</string>
+    <string name="la_mess_from">De</string>
+    <string name="la_mess_content">Contenu</string>
+    <string name="la_mess_time">Date d\'effet</string>
+    <string name="la_mess_noti">Message reçu</string>
+
+</resources>

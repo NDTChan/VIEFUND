@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobile.bts.com.viefund">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".Application.BTApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Default">
+        <activity
+            android:name=".Activity.FirstActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <!-- android:screenOrientation="portrait" /> -->
+
+        <activity
+            android:name=".Activity.BarChart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.QuickAccess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.PieChart"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.PlanAccountActivity" />
+        <activity android:name=".Activity.PlanInfoActivity" />
+        <activity android:name=".Activity.AccountDetailActivity" />
+        <activity android:name=".MultiLanguage.ChangeLanguageActivity" />
+        <activity android:name=".Activity.PlanAssetActivity" />
+        <activity android:name=".Activity.TrxDetail" />
+        <activity android:name=".Activity.TrxDetailActivity" />
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity android:name=".Activity.NotificationDetailsActivity" />
+        <activity android:name=".Activity.ReplyNotificationActivity" />
+        <activity android:name=".Activity.AboutUsActivity" />
+        <activity android:name=".Activity.SentRepNotificationActivity" />
+        <activity android:name=".Activity.SentNotificationDetailsActivity" />
+        <activity android:name=".Activity.SettingActivity" />
+        <activity android:name=".Activity.ThemeActivity" />
+        <activity android:name=".Activity.PrivacyActivity" />
+        <activity android:name=".Activity.DisclosureActivity" />
+        <activity android:name=".Activity.TermsOfUseActivity" />
+        <activity android:name=".Activity.HelpActivity" />
+
+        <service
+            android:name=".Service.MyService"
+            android:stopWithTask="false" />
+
+        <activity android:name=".Activity.NewMessageNotificationActivity"></activity>
+    </application>
+
+</manifest>

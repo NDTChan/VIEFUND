@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    >
+       <item
+           android:id="@+id/checkable_menu"
+           android:checkable="true"
+           android:icon="@drawable/quick_asset_icon"
+           android:title="@string/switch_button_title"
+           app:actionLayout="@layout/switch_layout"
+           app:showAsAction="always" />
+       <item
+         android:id="@+id/nav_about_us"
+         android:icon="@drawable/ic_aboutus"
+         android:title="@string/nav_about_us" />
+     <item
+         android:id="@+id/nav_notifications"
+         android:title="@string/nav_notifications"
+         android:icon="@drawable/ic_notification"/>
+     <item
+         android:id="@+id/nav_setting"
+         android:title="@string/nav_settings"
+         android:icon="@drawable/ic_settings_black_24dp"/>
+
+     <item
+         android:id="@+id/Privacy"
+         android:title="@string/setting_privacy"
+         android:icon="@drawable/icon_privacy"
+        />
+     <item
+         android:id="@+id/Disclosure"
+         android:title="@string/setting_disclosure"
+         android:icon="@drawable/icon_disclosure"
+        />
+     <item
+         android:id="@+id/TermsOfUse"
+         android:title="@string/setting_termofuse"
+         android:icon="@drawable/ic_verified_user_black_24dp"
+         />
+     <item
+         android:id="@+id/Help"
+         android:title="@string/setting_help"
+         android:icon="@drawable/ic_help_black_24dp"
+         />
+     <item
+         android:id="@+id/nav_logout"
+         android:title="@string/nav_logout"
+         android:icon="@drawable/ic_logout"/>
+</menu>

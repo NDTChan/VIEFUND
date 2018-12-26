@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mobile.bts.com.viefund.Activity.QuickAccess">
+    <include
+        android:id="@+id/toolbarPlanAccount"
+        layout="@layout/appbar_dktv"
+        />
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/row_bottom"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="16dp">
+
+            <TableLayout
+                android:id="@+id/tablePlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TableLayout>
+        </ScrollView>
+
+        <TableLayout
+            android:id="@+id/row_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_alignParentBottom="true"
+            ></TableLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

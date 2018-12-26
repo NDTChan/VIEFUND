@@ -1,0 +1,206 @@
+<resources>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="colorPrimary">customTextColor</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/text_color</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MyCustomToolbarThemeTextWhite" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- thanh tab-->
+    <style name="CustomTabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <array name="change_theme">
+        <item>@style/AppTheme</item>
+    </array>
+
+    //////////////////////Style-Theme////////////////////////////
+    <style name="AppTheme.Default" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--<item name="colorPrimaryLight">@color/colorPrimary</item>-->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="Color">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme.Red" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_red_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_red_500</item>-->
+        <item name="colorPrimaryDark">@color/md_red_500</item>
+        <item name="backgroundColor">@color/md_red_500</item>
+        <item name="Color">@color/md_red_500</item>
+    </style>
+    <style name="AppTheme.Pink" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/md_pink_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_pink_500</item>-->
+        <item name="colorPrimaryDark">@color/md_pink_500</item>
+        <item name="backgroundColor">@color/md_pink_500</item>
+        <item name="Color">@color/md_pink_500</item>
+    </style>
+    <style name="AppTheme.Purple" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_purple_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_purple_500</item>-->
+        <item name="colorPrimaryDark">@color/md_purple_500</item>
+        <item name="backgroundColor">@color/md_purple_500</item>
+        <item name="Color">@color/md_purple_500</item>
+    </style>
+    <style name="AppTheme.DeepPurple" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_deep_purple_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_deep_purple_500</item>-->
+        <item name="colorPrimaryDark">@color/md_deep_purple_500</item>
+        <item name="backgroundColor">@color/md_deep_purple_500</item>
+        <item name="Color">@color/md_deep_purple_500</item>
+    </style>
+    <style name="AppTheme.Indigo" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_indigo_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_indigo_500</item>-->
+        <item name="colorPrimaryDark">@color/md_indigo_500</item>
+        <item name="backgroundColor">@color/md_indigo_500</item>
+        <item name="Color">@color/md_indigo_500</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_blue_500</item>-->
+        <item name="colorPrimaryDark">@color/md_blue_500</item>
+        <item name="backgroundColor">@color/md_blue_500</item>
+        <item name="Color">@color/md_blue_500</item>
+    </style>
+    <style name="AppTheme.LightBlue" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_light_blue_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_light_blue_500</item>-->
+        <item name="colorPrimaryDark">@color/md_light_blue_500</item>
+        <item name="backgroundColor">@color/md_light_blue_500</item>
+        <item name="Color">@color/md_light_blue_500</item>
+    </style>
+    <style name="AppTheme.Cyan" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_cyan_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_cyan_500</item>-->
+        <item name="colorPrimaryDark">@color/md_cyan_500</item>
+        <item name="backgroundColor">@color/md_cyan_500</item>
+        <item name="Color">@color/md_cyan_500</item>
+    </style>
+    <style name="AppTheme.Teal" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_teal_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_teal_500</item>-->
+        <item name="colorPrimaryDark">@color/md_teal_500</item>
+        <item name="backgroundColor">@color/md_teal_500</item>
+        <item name="Color">@color/md_teal_500</item>
+    </style>
+    <style name="AppTheme.Green" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--<item name="colorPrimaryLight">@color/colorPrimary</item>-->
+        <item name="colorPrimaryDark">@color/md_green_500</item>
+        <item name="backgroundColor">@color/md_green_500</item>
+        <item name="Color">@color/md_green_500</item>
+    </style>
+    <style name="AppTheme.LightGreen" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_light_green_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_light_green_500</item>-->
+        <item name="colorPrimaryDark">@color/md_light_green_500</item>
+        <item name="backgroundColor">@color/md_light_green_500</item>
+        <item name="Color">@color/md_light_green_500</item>
+    </style>
+    <style name="AppTheme.Lime" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_lime_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_lime_500</item>-->
+        <item name="colorPrimaryDark">@color/md_lime_500</item>
+        <item name="backgroundColor">@color/md_lime_500</item>
+        <item name="Color">@color/md_lime_500</item>
+    </style>
+    <style name="AppTheme.Yellow" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_yellow_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_yellow_500</item>-->
+        <item name="colorPrimaryDark">@color/md_yellow_500</item>
+        <item name="backgroundColor">@color/md_yellow_500</item>
+        <item name="Color">@color/md_yellow_500</item>
+    </style>
+    <style name="AppTheme.Amber" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_amber_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_amber_500</item>-->
+        <item name="colorPrimaryDark">@color/md_amber_500</item>
+        <item name="backgroundColor">@color/md_amber_500</item>
+        <item name="Color">@color/md_amber_500</item>
+    </style>
+    <style name="AppTheme.Orange" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_orange_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_orange_500</item>-->
+        <item name="colorPrimaryDark">@color/md_orange_500</item>
+        <item name="backgroundColor">@color/md_orange_500</item>
+        <item name="Color">@color/md_orange_500</item>
+    </style>
+    <style name="AppTheme.DeepOrange" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_deep_orange_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_deep_orange_500</item>-->
+        <item name="colorPrimaryDark">@color/md_deep_orange_500</item>
+        <item name="backgroundColor">@color/md_deep_orange_500</item>
+        <item name="Color">@color/md_deep_orange_500</item>
+    </style>
+    <style name="AppTheme.Brown" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_brown_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_brown_500</item>-->
+        <item name="colorPrimaryDark">@color/md_brown_500</item>
+        <item name="backgroundColor">@color/md_brown_500</item>
+        <item name="Color">@color/md_brown_500</item>
+    </style>
+    <style name="AppTheme.Grey" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_grey_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_grey_500</item>-->
+        <item name="colorPrimaryDark">@color/md_grey_500</item>
+        <item name="backgroundColor">@color/md_grey_500</item>
+        <item name="Color">@color/md_grey_500</item>
+    </style>
+
+    <style name="AppTheme.BlueGrey" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/md_blue_grey_500</item>
+        <!--<item name="colorPrimaryLight">@color/md_blue_grey_500</item>-->
+        <item name="colorPrimaryDark">@color/md_blue_grey_500</item>
+        <item name="backgroundColor">@color/md_blue_grey_500</item>
+        <item name="Color">@color/md_blue_grey_500</item>
+    </style>
+</resources>
